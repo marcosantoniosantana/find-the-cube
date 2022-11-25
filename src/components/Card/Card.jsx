@@ -20,11 +20,11 @@ const Card = (props) =>{
         //console.log(item)
 
         if(item == "cube"){
+            //<Home title="true"/>
             console.log("Cubo encontrado")
             let vCardRotate = document.querySelectorAll(".card")
             
             vCardRotate.forEach((card)=>{
-                <Home title="true"/>
                 card.style.transform = "rotateY(-180deg)";
             })
         }

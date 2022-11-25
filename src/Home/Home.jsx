@@ -1,24 +1,10 @@
 import React,{useState, useEffect} from "react";
-import home from "./home.sass"
+import "./home.sass"
 import Card from "../components/Card/Card";
 
 export default function Home(param){
 
-    const [title, setTitle] = useState("Procure o cubo")
-
-    
-    let verifyTitle = param.title
-    
-    useEffect(()=>{
-
-        if(verifyTitle == "true"){
-            //setTitle("a")
-            console.log("Ok")
-        }else{
-            console.log("Not ok :(")
-        }
-    }, [])
-
+    const [title, setTitle] = useState("Encontre o cubo")
 
     const itens = [
         "wrong",
