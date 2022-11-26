@@ -20,7 +20,7 @@ const Card = (props) =>{
         //console.log(item)
 
         if(item == "cube"){
-            //<Home title="true"/>
+            <Home title="true"/>
             console.log("Cubo encontrado")
             let vCardRotate = document.querySelectorAll(".card")
             
